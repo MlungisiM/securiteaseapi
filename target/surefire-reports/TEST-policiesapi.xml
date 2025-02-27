@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="policiesapi" time="9.925" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mlungisimbele/IdeaProjects/com.api.standardbank/target/test-classes:/Users/mlungisimbele/IdeaProjects/com.api.standardbank/target/classes:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-java/4.1.2/selenium-java-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-api/4.1.2/selenium-api-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.1.2/selenium-chrome-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.1.2/selenium-chromium-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.1.2/selenium-devtools-v85-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.1.2/selenium-devtools-v95-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v96/4.1.2/selenium-devtools-v96-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v97/4.1.2/selenium-devtools-v97-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.1.2/selenium-edge-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.1.2/selenium-firefox-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.1.2/selenium-firefox-xpi-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.1.2/selenium-ie-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.2/selenium-opera-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.1.2/selenium-remote-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-buffer/4.1.73.Final/netty-buffer-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-codec-http/4.1.73.Final/netty-codec-http-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-codec/4.1.73.Final/netty-codec-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-handler/4.1.73.Final/netty-handler-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-tcnative-classes/2.0.46.Final/netty-tcnative-classes-2.0.46.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-common/4.1.73.Final/netty-common-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.73.Final/netty-transport-classes-epoll-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.73.Final/netty-transport-classes-kqueue-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-native-epoll/4.1.73.Final/netty-transport-native-epoll-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.73.Final/netty-transport-native-kqueue-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.73.Final/netty-transport-native-unix-common-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport/4.1.73.Final/netty-transport-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-resolver/4.1.73.Final/netty-resolver-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-api/1.10.1/opentelemetry-api-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-context/1.10.1/opentelemetry-context-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.10.1/opentelemetry-exporter-logging-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.10.1-alpha/opentelemetry-sdk-metrics-1.10.1-alpha.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.10.1-alpha/opentelemetry-sdk-logs-1.10.1-alpha.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.10.1/opentelemetry-sdk-common-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.10.1/opentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.10.1-alpha/opentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.10.1/opentelemetry-sdk-trace-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.10.1/opentelemetry-sdk-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.10.1-alpha/opentelemetry-semconv-1.10.1-alpha.jar:/Users/mlungisimbele/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/mlungisimbele/.m2/repository/net/bytebuddy/byte-buddy/1.12.7/byte-buddy-1.12.7.jar:/Users/mlungisimbele/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mlungisimbele/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/mlungisimbele/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/mlungisimbele/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mlungisimbele/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/mlungisimbele/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-http/4.1.2/selenium-http-4.1.2.jar:/Users/mlungisimbele/.m2/repository/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.1.2/selenium-safari-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-support/4.1.2/selenium-support-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/testng/testng/7.5/testng-7.5.jar:/Users/mlungisimbele/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/mlungisimbele/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/mlungisimbele/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/mlungisimbele/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/mlungisimbele/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/mlungisimbele/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/mlungisimbele/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/mlungisimbele/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/mlungisimbele/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mlungisimbele/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/mlungisimbele/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/mlungisimbele/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mlungisimbele/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mlungisimbele/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/mlungisimbele/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/mlungisimbele/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/mlungisimbele/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/mlungisimbele/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mlungisimbele/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/mlungisimbele/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/mlungisimbele/.m2/repository/com/thegoate/restassured/0.15.17.202302242243/restassured-0.15.17.202302242243.jar:/Users/mlungisimbele/.m2/repository/com/github/dzieciou/testing/curl-logger/2.1.2/curl-logger-2.1.2.jar:/Users/mlungisimbele/.m2/repository/com/thegoate/kernel/0.15.17.202302242243/kernel-0.15.17.202302242243.jar:/Users/mlungisimbele/.m2/repository/org/atteo/classindex/classindex/3.11/classindex-3.11.jar:/Users/mlungisimbele/.m2/repository/com/thegoate/rest/0.15.17.202302242243/rest-0.15.17.202302242243.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.1/selenium-devtools-v108-4.8.1.jar:/Users/mlungisimbele/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/mlungisimbele/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/mlungisimbele/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/mlungisimbele/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/mlungisimbele/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/mlungisimbele/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/mlungisimbele/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/mlungisimbele/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/mlungisimbele/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/mlungisimbele/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar:/Users/mlungisimbele/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.1/httpasyncclient-4.1.1.jar:/Users/mlungisimbele/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar:/Users/mlungisimbele/.m2/repository/org/json/json/20160212/json-20160212.jar:/Users/mlungisimbele/.m2/repository/javax/json/javax.json-api/1.1.4/javax.json-api-1.1.4.jar:/Users/mlungisimbele/.m2/repository/org/glassfish/javax.json/1.1.4/javax.json-1.1.4.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="ZA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/mlungisimbele/IdeaProjects/com.api.standardbank/target/surefire/surefirebooter8101248319158750839.jar /Users/mlungisimbele/IdeaProjects/com.api.standardbank/target/surefire 2023-04-21T14-17-26_185-jvmRun1 surefire6111511968694199613tmp surefire_07102112646593494595tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/mlungisimbele/IdeaProjects/com.api.standardbank/target/test-classes:/Users/mlungisimbele/IdeaProjects/com.api.standardbank/target/classes:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-java/4.1.2/selenium-java-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-api/4.1.2/selenium-api-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.1.2/selenium-chrome-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.1.2/selenium-chromium-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.1.2/selenium-devtools-v85-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.1.2/selenium-devtools-v95-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v96/4.1.2/selenium-devtools-v96-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v97/4.1.2/selenium-devtools-v97-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.1.2/selenium-edge-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.1.2/selenium-firefox-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.1.2/selenium-firefox-xpi-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.1.2/selenium-ie-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.2/selenium-opera-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.1.2/selenium-remote-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-buffer/4.1.73.Final/netty-buffer-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-codec-http/4.1.73.Final/netty-codec-http-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-codec/4.1.73.Final/netty-codec-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-handler/4.1.73.Final/netty-handler-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-tcnative-classes/2.0.46.Final/netty-tcnative-classes-2.0.46.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-common/4.1.73.Final/netty-common-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.73.Final/netty-transport-classes-epoll-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.73.Final/netty-transport-classes-kqueue-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-native-epoll/4.1.73.Final/netty-transport-native-epoll-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.73.Final/netty-transport-native-kqueue-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.73.Final/netty-transport-native-unix-common-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport/4.1.73.Final/netty-transport-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-resolver/4.1.73.Final/netty-resolver-4.1.73.Final.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-api/1.10.1/opentelemetry-api-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-context/1.10.1/opentelemetry-context-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.10.1/opentelemetry-exporter-logging-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.10.1-alpha/opentelemetry-sdk-metrics-1.10.1-alpha.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.10.1-alpha/opentelemetry-sdk-logs-1.10.1-alpha.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.10.1/opentelemetry-sdk-common-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.10.1/opentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.10.1-alpha/opentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.10.1/opentelemetry-sdk-trace-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.10.1/opentelemetry-sdk-1.10.1.jar:/Users/mlungisimbele/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.10.1-alpha/opentelemetry-semconv-1.10.1-alpha.jar:/Users/mlungisimbele/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/mlungisimbele/.m2/repository/net/bytebuddy/byte-buddy/1.12.7/byte-buddy-1.12.7.jar:/Users/mlungisimbele/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mlungisimbele/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/mlungisimbele/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/mlungisimbele/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/mlungisimbele/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mlungisimbele/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/mlungisimbele/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-http/4.1.2/selenium-http-4.1.2.jar:/Users/mlungisimbele/.m2/repository/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.1.2/selenium-safari-driver-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-support/4.1.2/selenium-support-4.1.2.jar:/Users/mlungisimbele/.m2/repository/org/testng/testng/7.5/testng-7.5.jar:/Users/mlungisimbele/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/mlungisimbele/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/mlungisimbele/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/mlungisimbele/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/mlungisimbele/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/mlungisimbele/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/mlungisimbele/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/mlungisimbele/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/mlungisimbele/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mlungisimbele/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/mlungisimbele/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/mlungisimbele/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mlungisimbele/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mlungisimbele/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/mlungisimbele/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/mlungisimbele/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/mlungisimbele/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/mlungisimbele/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mlungisimbele/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/mlungisimbele/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/mlungisimbele/.m2/repository/com/thegoate/restassured/0.15.17.202302242243/restassured-0.15.17.202302242243.jar:/Users/mlungisimbele/.m2/repository/com/github/dzieciou/testing/curl-logger/2.1.2/curl-logger-2.1.2.jar:/Users/mlungisimbele/.m2/repository/com/thegoate/kernel/0.15.17.202302242243/kernel-0.15.17.202302242243.jar:/Users/mlungisimbele/.m2/repository/org/atteo/classindex/classindex/3.11/classindex-3.11.jar:/Users/mlungisimbele/.m2/repository/com/thegoate/rest/0.15.17.202302242243/rest-0.15.17.202302242243.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.1/selenium-devtools-v108-4.8.1.jar:/Users/mlungisimbele/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/mlungisimbele/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/mlungisimbele/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/mlungisimbele/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/mlungisimbele/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/mlungisimbele/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/mlungisimbele/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/mlungisimbele/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/mlungisimbele/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/mlungisimbele/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/mlungisimbele/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar:/Users/mlungisimbele/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.1/httpasyncclient-4.1.1.jar:/Users/mlungisimbele/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar:/Users/mlungisimbele/.m2/repository/org/json/json/20160212/json-20160212.jar:/Users/mlungisimbele/.m2/repository/javax/json/javax.json-api/1.1.4/javax.json-api-1.1.4.jar:/Users/mlungisimbele/.m2/repository/org/glassfish/javax.json/1.1.4/javax.json-1.1.4.jar:"/>
+    <property name="test" value="policiesapi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mlungisimbele"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/mlungisimbele/IdeaProjects/com.api.standardbank"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/mlungisimbele/IdeaProjects/com.api.standardbank/target/surefire/surefirebooter8101248319158750839.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="mlungisimbele"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/mlungisimbele/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/sw/07r_1l557kv4_vmnbx1pw9440000gn/T/"/>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="/Users/mlungisimbele/IdeaProjects/com.api.standardbank"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/mlungisimbele/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="/Users/mlungisimbele/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="healthCheck" classname="policiesapi" time="3.06">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dsbgchop191.standardbank.co.za/insurance/policies/internal/actuator/health
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+strict-transport-security: max-age=31536000 ; includeSubDomains
+x-frame-options: DENY
+content-type: application/vnd.spring-boot.actuator.v3+json
+transfer-encoding: chunked
+date: Fri, 21 Apr 2023 12:17:31 GMT
+
+{
+    "status": "UP"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="NoAuthorisation" classname="policiesapi" time="0.315">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dsbgchop191.standardbank.co.za/insurance/policies/internal/customer/8502059137081/policies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/html; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+strict-transport-security: max-age=31536000 ; includeSubDomains
+x-frame-options: DENY
+content-length: 0
+date: Fri, 21 Apr 2023 12:17:32 GMT
+]]></system-out>
+  </testcase>
+  <testcase name="login[org.testng.TestRunner@1a6f2363](1)" classname="policiesapi" time="1.015">
+    <system-out><![CDATA[HTTP/1.1 302 Found
+Date: Fri, 21 Apr 2023 12:17:33 GMT
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Strict-Transport-Security: max-age=31536000
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html;charset=utf-8
+Set-Cookie: PF=aXdLr6NcdUvZIV79dS0GqcWEcQqyDaTImIgqxCKQZpeW; Path=/; Expires=Fri, 21-Apr-2023 12:27:33 GMT; Max-Age=600; Secure; HttpOnly; SameSite=None
+Set-Cookie: pf-hfa-exp-pwd=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Secure; HttpOnly; SameSite=None
+Set-Cookie: pf-hfa-SBSAEnterpriseHtmlAdapter-rmu=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Secure; HttpOnly; SameSite=None
+Location: sbg.login:/oauth2redirect?code=jY6wodU7lCFpeLO0DWczjJXb2XChK-rX3PsAAAAC
+Content-Length: 0
+code: htYcmfpnE8suYPNu3ZmH7wq_uhMz2-8BywQAAAAC
+]]></system-out>
+  </testcase>
+  <testcase name="tokenrequest[org.testng.TestRunner@1a6f2363](1)" classname="policiesapi" time="1.467">
+    <system-out><![CDATA[{
+    "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImRpZC0yIiwicGkuYXRtIjoiOGlraSJ9.eyJzY3AiOlsic2VjdXJpdHljb250ZXh0c3RvcmUuKi4qIiwicHJvZmlsZS4qLioiLCJvcGVuaWQiLCJ0cnVzdC4qLioiLCJwcm9maWxlIiwiYXV0aGVudGljYXRpb24uKi4qIiwic3RlcHVwLiouKiIsImJvdGd1YXJkLiouKiIsImlkZW50aWZpY2F0aW9uLiouKiIsImluc3VyYW5jZS1kb21haW4uKi4qIiwic2VjdXJpdHlpZHZvcmNoZXN0cmF0aW9uLiouKiIsInBsYXRmb3JtZ2F0ZXdheS4qLioiLCJpbnN1cmFuY2UtZ2F0ZXdheS4qLioiLCJwbGF0Zm9ybW1zZ2F0ZXdheS4qLioiLCJ1cm46cGluZ2lkZW50aXR5OmRpcmVjdG9yeS1hcGkiLCJjb21tdW5pdHkuKi4qIl0sImNsaWVudF9pZCI6IjM3OTliM2I4LTRlNzQtMTFlYS1iYzg3LWI4OGE2MGRjYjY3NiIsImlzcyI6Imh0dHBzOi8vZW50ZXJwcmlzZXN0c3NpdC5zdGFuZGFyZGJhbmsuY28uemEiLCJqdGkiOiJyenJTeG83VVZOSXMyZHFkNjNqTXNlIiwic3ViIjoiaW5zdXJhbmNldXNlckBnLmNvbSIsImRpZ2ltZSI6ZmFsc2UsIm5iZiI6MTY4MjA3OTQ1MywiYW1yIjoicHdkIiwiaWQiOiJjODZlMmRjNC0xNTE2LTRhN2EtYWM2Zi0xYjUxZWQ4NjQ4MDEiLCJpYXQiOjE2ODIwNzk0NTMsImV4cCI6MTY4MjA3OTc1M30.Hewlog3nZRdwn8D_Z4nnvYKgDNYY0CTeO2hyhQlHIpeABfocUkgMNspGkg8L1hUGgdKzfylYRIOcLIZIBiVpCP3ZhmWE6VlzeVI4BzU9Eu0562_mpcYg5j10OWVHrYQkJscGaN6nsENjnK_KXCnLb0TC0D8Pml9OoZ_tMJH5wYDLqx0fBCdZs0_lj7-BDNTJsY2XrET5r8n-7eBbisUk_RDNEJzJF87WEjsamjEtCF8oaWXwgKMxF-pZTEMQM9VPOPMKgZOMQMjVfc6ee2-AkUDZ18c7bHROTAzXF559og9oLCq01Qde008UHxZPBG99eFQon5htshbAP4TpGIjPkg",
+    "refresh_token": "hIZP0qG2s2fYUPxSMihUofjG0WWolyjtk43xMl16TD",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkE3VV9BNlBwZW1lVi0yYy1CdlFnR3ZhQjV0SSJ9.eyJzdWIiOiJpbnN1cmFuY2V1c2VyQGcuY29tIiwiYXVkIjoiMzc5OWIzYjgtNGU3NC0xMWVhLWJjODctYjg4YTYwZGNiNjc2IiwianRpIjoiMGlaWFI5cGdkZG9zWWV1Y2NHMlFlZiIsImlzcyI6Imh0dHBzOi8vZW50ZXJwcmlzZXN0c3NpdC5zdGFuZGFyZGJhbmsuY28uemEiLCJpYXQiOjE2ODIwNzk0NTIsImV4cCI6MTY4MjA4MDM1MiwiYW1yIjpbInB3ZCJdLCJhdXRoX3RpbWUiOjE2ODIwNzk0NTIsImlkIjoiYzg2ZTJkYzQtMTUxNi00YTdhLWFjNmYtMWI1MWVkODY0ODAxIiwic2JnX2RpIjoiMjMxNzIxMCIsInBpLnNyaSI6IlZuNWZxQWxqNXI3Ym5PMVlxZ0kwTWt1dVNGby4uUW43YyJ9.Jh5psr1Cd9cvjXxxmxYtx7eHEeOkU_zbbKYUZbVwCaSrFUdvAUSiYdyOsNcKNGSqxqRman8eIeDQP7mOrV11pOz3LE1M-xo5Y_NGZgkOtgWXsjv9sSAAfaWuM_3Y2eGH8WAt-9EbA35I3e9-weRe-36LCpJgvBljb7WdBSM1kx4ILVGcO_yKs6Qm21rRthEloa62YJLEDGhicXm6H11sSAZca3QE6bz46jitjnVqTuHdP-X7MFBp4GdcjJLHMCZIo-S_1ag93Xs8kG3zHdqzVdC4W4uDYX3xBioQ3Tw9GjHuUMzTlmQ3i5Q4hVUceuP7Wa9iIOVhEpmFmB3oR7xhsg",
+    "token_type": "Bearer",
+    "expires_in": 299
+}
+]]></system-out>
+  </testcase>
+  <testcase name="CustomerNoPolicies[org.testng.TestRunner@1a6f2363](1)" classname="policiesapi" time="1.524">
+    <system-out><![CDATA[HTTP/1.1 404 
+message: No policies were found for the customer
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+strict-transport-security: max-age=31536000 ; includeSubDomains
+x-frame-options: DENY
+content-length: 0
+date: Fri, 21 Apr 2023 12:17:36 GMT
+]]></system-out>
+  </testcase>
+  <testcase name="CustomerWithPoliciesinMaven[org.testng.TestRunner@1a6f2363](1)" classname="policiesapi" time="0.942">
+    <system-out><![CDATA[HTTP/1.1 200 
+message: Customer has policies
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+strict-transport-security: max-age=31536000 ; includeSubDomains
+x-frame-options: DENY
+content-length: 0
+date: Fri, 21 Apr 2023 12:17:37 GMT
+]]></system-out>
+  </testcase>
+  <testcase name="Passport[org.testng.TestRunner@1a6f2363](1)" classname="policiesapi" time="0.801">
+    <system-out><![CDATA[HTTP/1.1 500 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+strict-transport-security: max-age=31536000 ; includeSubDomains
+x-frame-options: DENY
+content-type: application/json
+transfer-encoding: chunked
+date: Fri, 21 Apr 2023 12:17:38 GMT
+
+{
+    "timestamp": "2023-04-21T12:17:38.080+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "path": "/insurance/policies/internal/customer/qwertyu123456/policies"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

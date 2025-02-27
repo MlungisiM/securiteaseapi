@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="9239" started-at="2023-04-21T14:17:28 SAST" finished-at="2023-04-21T14:17:37 SAST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="9239" started-at="2023-04-21T14:17:28 SAST" finished-at="2023-04-21T14:17:37 SAST">
+      <class name="policiesapi">
+        <test-method status="PASS" signature="healthCheck()[pri:1, instance:policiesapi@7a9273a8]" name="healthCheck" duration-ms="3048" started-at="2023-04-21T14:17:28 SAST" finished-at="2023-04-21T14:17:31 SAST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthCheck -->
+        <test-method status="PASS" signature="NoAuthorisation()[pri:2, instance:policiesapi@7a9273a8]" name="NoAuthorisation" duration-ms="316" started-at="2023-04-21T14:17:31 SAST" finished-at="2023-04-21T14:17:32 SAST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoAuthorisation -->
+        <test-method status="PASS" signature="login(org.testng.ITestContext)[pri:3, instance:policiesapi@7a9273a8]" name="login" duration-ms="1013" started-at="2023-04-21T14:17:32 SAST" finished-at="2023-04-21T14:17:33 SAST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a6f2363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tokenrequest(org.testng.ITestContext)[pri:4, instance:policiesapi@7a9273a8]" name="tokenrequest" duration-ms="1461" started-at="2023-04-21T14:17:33 SAST" finished-at="2023-04-21T14:17:34 SAST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a6f2363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tokenrequest -->
+        <test-method status="PASS" signature="CustomerNoPolicies(org.testng.ITestContext)[pri:5, instance:policiesapi@7a9273a8]" name="CustomerNoPolicies" duration-ms="1524" started-at="2023-04-21T14:17:34 SAST" finished-at="2023-04-21T14:17:36 SAST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a6f2363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerNoPolicies -->
+        <test-method status="PASS" signature="CustomerWithPoliciesinMaven(org.testng.ITestContext)[pri:6, instance:policiesapi@7a9273a8]" name="CustomerWithPoliciesinMaven" duration-ms="942" started-at="2023-04-21T14:17:36 SAST" finished-at="2023-04-21T14:17:37 SAST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a6f2363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerWithPoliciesinMaven -->
+        <test-method status="PASS" signature="Passport(org.testng.ITestContext)[pri:8, instance:policiesapi@7a9273a8]" name="Passport" duration-ms="801" started-at="2023-04-21T14:17:37 SAST" finished-at="2023-04-21T14:17:37 SAST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a6f2363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Passport -->
+      </class> <!-- policiesapi -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
